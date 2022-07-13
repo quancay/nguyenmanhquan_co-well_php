@@ -40,11 +40,11 @@
   </head>
   <body>
     
-<?php include('layouts/header.php') ?>
+<?php include('app/views/layouts/header.php') ?>
 
 <div class="container-fluid">
   <div class="row">
-    <?php include('layouts/slide.php') ?>
+    <?php include('app/views/layouts/slide.php') ?>
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <?php include('layouts/content.php') ?>
+      <?php include('app/views/layouts/content.php') ?>
     </main>
   </div>
 </div>

@@ -4,7 +4,7 @@ require_once './vendor/autoload.php';
 use App\Controllers\OrderController;
 
 
-include 'public/index.php';
+include 'app/views/main.php';
 $abc = new OrderController();
 $abc -> index();
 ?>
